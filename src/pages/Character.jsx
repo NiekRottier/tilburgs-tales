@@ -6,26 +6,22 @@ import Overview from '../components/Overview';
 import { useLocation } from 'react-router-dom';
 
 function Character() {
+  const properties = useLocation()
   const [location, setLocation] = useState({ 'latitude' : 0, 'longitude' : 0, 'accuracy' : 0})
   const [chatActive, setchatActive] = useState(true)
   const [component, setComponent] = useState(<p>Loading...</p>)
-  const [character, setCharacter] = useState('cesar')
-  const [title, setTitle] = useState('A Pathway to Memories')
-  const properties = useLocation()
+  const [character, setCharacter] = useState(properties.state.character ? properties.state.character : 'cesar')
+  const [title, setTitle] = useState(properties.state.title ? properties.state.title : 'A Pathway to Memories')
 
   // Add character class to main element for CSS styling
-  useEffect(() => {
-    if (properties.state) {
-      setCharacter(properties.state.character)
-      setTitle(properties.state.title)
-    }
-  }, [])
-  
   useEffect(() => {
     let el = document.getElementsByClassName('characterPage')[0]
     el.classList.add('char-'+character)
   
     document.title = `${character.toLowerCase().replace(/\b[a-z]/g, letter => { return letter.toUpperCase()})}'s Route`
+  }, [])
+  
+  useEffect(() => {
 
   }, [character])
 
@@ -37,7 +33,7 @@ function Character() {
     } else {
       setComponent(<Overview />)
     }
-  }, [chatActive, location])
+  }, [chatActive, location, character])
 
   function getPosition(){
     if ("geolocation" in navigator) {
