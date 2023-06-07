@@ -9,21 +9,31 @@ function Character() {
   const [location, setLocation] = useState({ 'latitude' : 0, 'longitude' : 0, 'accuracy' : 0})
   const [chatActive, setchatActive] = useState(true)
   const [component, setComponent] = useState(<p>Loading...</p>)
+  const [character, setCharacter] = useState('cesar')
+  const [title, setTitle] = useState('A Pathway to Memories')
   const properties = useLocation()
 
   // Add character class to main element for CSS styling
   useEffect(() => {
-    let el = document.getElementsByClassName('characterPage')[0]
-    el.classList.add('char-'+properties.state.character)
-
-    document.title = `${properties.state.character.toLowerCase().replace(/\b[a-z]/g, letter => { return letter.toUpperCase()})}'s Route`
+    if (properties.state) {
+      setCharacter(properties.state.character)
+      setTitle(properties.state.title)
+    }
   }, [])
+  
+  useEffect(() => {
+    let el = document.getElementsByClassName('characterPage')[0]
+    el.classList.add('char-'+character)
+  
+    document.title = `${character.toLowerCase().replace(/\b[a-z]/g, letter => { return letter.toUpperCase()})}'s Route`
+
+  }, [character])
 
   useEffect(() => {
     if (chatActive) {
       setComponent(<Chat 
         location={location} 
-        mainCharacter={properties.state.character} />)
+        mainCharacter={character} />)
     } else {
       setComponent(<Overview />)
     }
@@ -55,8 +65,8 @@ function Character() {
     <div className='characterPage'>
       <div className='header'>
         <div className="btn-back"><Link to="/">&lsaquo;</Link></div>
-        <h1>{ properties.state.character }</h1>
-        <p>{ properties.state.title }</p>
+        <h1>{ character }</h1>
+        <p>{ title }</p>
         <div className={chatActive ? 'btn active' : 'btn'}
           onClick={() => setchatActive(true)}>Chat</div>
         <div className={!chatActive ? 'btn active' : 'btn'}
