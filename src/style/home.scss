@@ -1,0 +1,134 @@
+@use './general';
+
+$evi: #E2CF47;
+$ania: #E85A4F;
+$yasu: #C562DD;
+$emmanuel: #E58842;
+$cesar: #6AA7DB;
+$mei: #BAD166;
+
+.home{
+    margin: 1rem;
+
+    .video-container{
+        position: relative;
+
+        // REMOVE LATER:
+        padding-bottom: 5vw;
+
+        .video{
+            width: 100%;
+            height: min-content;
+            aspect-ratio: 16 / 9;
+            margin-bottom: 4.5vw;
+        }
+        
+        div.video{
+            margin: 0;
+            padding-top: 25%;
+            background: rgb(221,179,231);
+            background: linear-gradient(90deg, rgba(221,179,231,1) 0%, rgba(164,194,219,1) 17%, rgba(209,221,167,1) 33%, rgba(215,210,169,1) 54%, rgba(224,171,131,1) 84%, rgba(224,144,137,1) 100%);
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .character-choices{
+            position: absolute;
+            bottom: 0;
+
+            .character-emmanuel, .character-ania{
+                filter: grayscale(0.7);
+            }
+        }
+    }
+    
+    
+    [class*="character-info"]{
+        position: relative;
+        display: none;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin-top: 2rem;
+        border-radius: 10px;
+        border: 4px solid black;
+        box-shadow: 0px 2px 4px 0px #00000040;
+        
+        &[class*="emmanuel"]{
+            border-color: $emmanuel;
+            .start-button{
+                background-color: $emmanuel;
+            }
+        }
+        &[class*="ania"]{
+            border-color: $ania;
+            .start-button{
+                background-color: $ania;
+            }
+        }
+        &[class*="yasu"]{
+            border-color: $yasu;
+            .start-button{
+                background-color: $yasu;
+            }
+        }
+        &[class*="mei"]{
+            border-color: $mei;
+            .start-button{
+                background-color: $mei;
+            }
+        }
+        &[class*="cesar"]{
+            border-color: $cesar;
+            .start-button{
+                background-color: $cesar;
+            }
+        }
+
+        &[class*="emmanuel"], &[class*="ania"]{
+            filter: grayscale(0.7);
+        }
+    
+        > .intro{
+            margin-bottom: 0;
+        }
+
+        > p{
+            width: 100%;
+        }
+
+        .start-button{
+            width: 100%;
+            margin: 0 auto;
+            padding: 1rem;
+            border-radius: 10px;
+            color: #FFF;
+    
+            a{
+                display: block;
+                width: 100%;
+                text-align: center;
+                color: white;
+                font-weight: 800;
+                text-decoration: none;
+            }
+        }
+    
+        &.active{
+            display: flex;
+        }
+    
+        .insta-icon{
+            display: block;
+            height: 2.5rem;
+            width: 2.5rem;
+
+            > img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}

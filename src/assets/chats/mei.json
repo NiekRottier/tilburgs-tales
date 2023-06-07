@@ -1,0 +1,230 @@
+{
+    "locations" : [
+        {
+            "lat" : null,
+            "long" : null,
+            "accuracy" : null,
+            "track"  : [0],
+            "nextLocations" : [1],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "video",
+                            "content" : "https://www.youtube.com/embed/ScMzIvxBSi4",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "PLACEHOLDER: Hey Mei! I know you really wanted to stay with me but don’t worry, I’m fine! *Cough as if she was going to die* I’m sorry for yesterday, I couldn’t take care of you, but I was dealing with Ania who was even more drunk than you haha! I heard you lost your credit card, your favorite book, and your travel diary… I think I know where they are. If I remember well, we first stopped at the Spoorpark. You should go there, maybe some memories will come to you!",
+                            "character" : "evi"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.561163,
+            "long" : 5.071961,
+            "accuracy" : 0.0002,
+            "track"  : [0],
+            "nextLocations" : [2],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "cesar",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Cesar! I need your help!",
+                            "character" : "mei"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Again?",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Yeah, do you remember my Instagram password? You helped me create it.",
+                            "character" : "mei"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Uhm…",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "You know what? My mom always told me that if I want to remember something, I need to make my brain exercise a little bit.",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "What?",
+                            "character" : "mei"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "<i>\"In your quest to unlock Instagram's gate, these clues hold the key:<br />Find a blue letter, as vibrant as can be.<br />Discover the date when Kempentoren rose,<br />Count the lines that helped the logo grow.<br /><br />Guess them right, in order precise,<br />And the password shall grant you access, nice.\"</i>",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "<i>\"If heights aren't your delight, don't fret or mourn,<br />Head to the 'spoilers' in the “Overview” category, where secrets are born.<br />But remember, the journey may lose its fun.\"</i>",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "code",
+                            "content" : "H20198",
+                            "character" : "mei"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [0],
+                    "friend" : "cesar",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "I knew you could do it!",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "<a target='_blank' href='https://www.instagram.com/meiyu_explorer/'>Mei's Instagram</a>",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "PLACEHOLDER: A story on Mei's instagram guides you to the Dorstige Hert café",
+                            "character" : "cesar"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.557714,
+            "long" : 5.044984,
+            "accuracy" : 0.0002,
+            "track"  : [0],
+            "nextLocations" : [3],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Mei! I just found a pic on my phone! I think it’s your credit card!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "img",
+                            "content" : "placeholder.webp",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "I took the photo at Het Dorstige Hert, the café close to Tilburg University",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "I am there! I'm going to look around",
+                            "character" : "mei"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "...",
+                            "character" : "mei"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "I found my it!! But there are some weird numbers next to it?",
+                            "character" : "mei"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "The numbers 51.563629 and 5.032786",
+                            "character" : "mei"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "They look like coords.. Let me look it up",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "They point to the Grotto Café in the center of the park behind the University",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "We went there yesterday!",
+                            "character" : "evi"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.563629,
+            "long" : 5.032786,
+            "accuracy" : 0.0002,
+            "track"  : [0],
+            "nextLocations" : [4],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Look! I took a screenshot of this from my story from yesterday. It’s your book! Maybe you left it in the same spot!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "img",
+                            "content" : "placeholder.webp",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Great! I'm going to search for it!",
+                            "character" : "mei"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.567987,
+            "long" : 5.043340,
+            "accuracy" : 0.0002,
+            "track"  : [0],
+            "nextLocations" : [],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "video",
+                            "content" : "https://www.youtube.com/embed/ScMzIvxBSi4",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "PLACEHOLDER: Congrats Mei! You found all of your stuff! You deserve a little treat… How about an ice cream made by a specialist? His family has been making ice cream for 4 generations! This is my favorite place to end the day when I come to this area!",
+                            "character" : "evi"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

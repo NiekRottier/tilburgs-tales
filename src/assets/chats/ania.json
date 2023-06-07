@@ -1,0 +1,34 @@
+{
+    "locations" : [
+        {
+            "lat" : null,
+            "long" : null,
+            "accuracy" : null,
+            "track"  : [0],
+            "nextLocations" : [],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Hey Ania!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Answer 'kruikenzeiker'",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "code",
+                            "content" : "kruikenzeiker",
+                            "character" : "cesar"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+@use './general';
+
+// Change colors based on character
+$evi: #E2CF47;
+$ania: #E85A4F;
+$yasu: #C562DD;
+$emmanuel: #E58842;
+$cesar: #6AA7DB;
+$mei: #BAD166;
+
+.characterPage{
+    &.char-emmanuel{
+        .header, .btn{
+            background-color: $emmanuel;
+        }
+
+        .btn.active{
+            background-color: darken($emmanuel, 10%);
+        }
+
+        .btn:hover{
+            background-color: darken($emmanuel, 5%);
+        }
+    }
+    &.char-ania{
+        .header, .btn{
+            background-color: $ania;
+        }
+
+        .btn.active{
+            background-color: darken($ania, 10%);
+        }
+
+        .btn:hover{
+            background-color: darken($ania, 5%);
+        }
+    }
+    &.char-yasu{
+        .header, .btn{
+            background-color: $yasu;
+        }
+
+        .btn.active{
+            background-color: darken($yasu, 10%);
+        }
+
+        .btn:hover{
+            background-color: darken($yasu, 5%);
+        }
+    }
+    &.char-mei{
+        .header, .btn{
+            background-color: $mei;
+        }
+
+        .btn.active{
+            background-color: darken($mei, 10%);
+        }
+
+        .btn:hover{
+            background-color: darken($mei, 5%);
+        }
+    }
+    &.char-cesar{
+        .header, .btn{
+            background-color: $cesar;
+        }
+
+        .btn.active{
+            background-color: darken($cesar, 10%);
+        }
+
+        .btn:hover{
+            background-color: darken($cesar, 5%);
+        }
+    }
+
+    .header{
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        background-color: black;
+        border-radius: 0 0 5px 5px;
+        color: white;
+    
+        h1, p{
+            width: 100%;
+            text-align: center;
+            text-transform: capitalize;
+        }
+    
+        h1{
+            margin-top: 0.5rem;
+        }
+    
+        p{
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+    
+        > .btn{
+            width: 50%;
+            padding: 1rem 0.5rem;
+            box-shadow: 0px 3px 3px 0px #00000040;
+            text-align: center;
+            font-weight: 600;
+    
+            &:first-of-type{
+                border-bottom-left-radius: 5px;
+            }
+            &:last-of-type{
+                border-bottom-right-radius: 5px;
+            }
+
+            &.active{
+                box-shadow: 0px 4px 4px 0px #00000040 inset;
+            }
+        }
+
+        .btn-back{
+            position: absolute;
+            top: 0.6rem;
+            left: 1rem;
+            > a{
+                font-size: 3rem;
+                color: white;
+                text-decoration: none;
+                
+                &:hover{
+                    color: darken(white, 10%);
+                }
+            }
+        }
+    }
+    
+    .body{
+        margin: 1rem;
+        margin-bottom: 5rem;
+    }
+    
+    .location{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 0.25rem 1rem;
+        background-color: red;
+        border-radius: 5px 5px 0 0;
+        color: black;
+        font-size: 0.7rem;
+    
+        &.correct{
+            background-color: green;
+        }
+    }
+}

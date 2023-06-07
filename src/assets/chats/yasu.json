@@ -1,0 +1,240 @@
+{
+    "locations" : [
+        {
+            "lat" : null,
+            "long" : null,
+            "accuracy" : null,
+            "track"  : [0],
+            "nextLocations" : [1],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "cesar",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Hey, where are you at?",
+                            "character" : "yasu"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "At the LocHal, you?",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "I was planning on going to the TextielMuseum. Do you want to join?",
+                            "character" : "yasu"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Sounds great, I’ll meet you there!",
+                            "character" : "cesar"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.571039,
+            "long" : 5.079244,
+            "accuracy" : 0.0003,
+            "track"  : [0],
+            "nextLocations" : [2],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Hey, Are you alright? I’m sorry I couldn’t be with you. I’m sick, you know.. But I can give you advice if you need my help. Do you have any questions?",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Yes, I’m sorry to hear that you are sick. But don’t worry, I’ll do my best for you! I’m waiting for Cesar to visit the Textile Museum now. And, do you know of a representative cultural thing in Tilburg?",
+                            "character" : "yasu"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Ah, in my opinion the “Social Sofa” could be one. They have a website with all the sofa's: <a target='_blank' href='https://www.socialsofa.com'>Social Sofa website</a>!! They are everywhere, so you can take a photo with them! I believe there is one Social Sofa next to the Textile Museum",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "I'll send a picture!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "img",
+                            "content" : "social-sofa.png",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Oh! That’s a good example! Okay, then I will try to find and take a picture of it!",
+                            "character" : "yasu"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [0],
+                    "friend" : "cesar",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Where are you going after the TextielMuseum?",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "I was thinking of visiting the LocHal",
+                            "character" : "yasu"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Cool! I will also go that way, so we can walk together :)",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Nice!",
+                            "character" : "yasu"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "There is also a park on the way, called the Wilhelminapark, and it has a bunch of artsy things, like a stone car, a glass wall with a poem and some statue!",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Oh great! We can visit that on the way",
+                            "character" : "yasu"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.560936,
+            "long" : 5.085539,
+            "accuracy" : 0.0003,
+            "track"  : [0],
+            "nextLocations" : [3],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Hey, I just visited the TextielMuseum with Cesar and now I’m in “LocHal”! However, I don’t know where I should go after this? Can you give me some suggestions?",
+                            "character" : "yasu"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Oh! That’s cool! Hmm.. I’ll think about it… Are you already getting hungry?",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Yeah, I wanna find something to eat but it’s hard to decide what to eat!",
+                            "character" : "yasu"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Then I can give you the perfect suggestion! It’s the “Gourmet Market Central Station” near your location! It’s only a 3 min walk from you and you can enjoy various cultural elements and order any food you want to eat there!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Oh! It sounds nice, I’m going to look it up! Thanks! I will text you later!!",
+                            "character" : "yasu"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.561329,
+            "long" : 5.082722,
+            "accuracy" : 0.0003,
+            "track"  : [0],
+            "nextLocations" : [],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Hey, I loved the food in Gourmet Market! Haha! Do you have any other cultural tips in Tilburg? I’m full of energy again!",
+                            "character" : "yasu"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Oh, glad to hear that! I think you can go to Cinecitta. They don't have blockbusters but special films just for you. I’m sure you would like it!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "You can check the timetable: <a target='_blank' href='https://cinecitta.nl/en/films-meer-english/#/'>Cinecitta website</a>",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Sounds interesting! I will check it out!",
+                            "character" : "yasu"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Do you have any extra places you know about?",
+                            "character" : "yasu"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Hmm…there are some other options where you maybe can go: “<a target='_blank' href='https://denieuwevorst.nl/english/info-program'>Theater De Nieuwe Vorst</a>” and “<a target='_blank' href='http://www.kunstmaan.nl/'>Kunstmaan</a>”, but you need to check the schedule through the website because they are only open when they have performances!!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "If you want, you can also eat dinner or have a drink in those places!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "That also sounds cool, I hope they have performances today!",
+                            "character" : "yasu"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "I hope so too",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "By the way, I just found a whole list of cultural places where you can take photos for our contest on your way! I will share the link!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "<a target='_blank' href='https://www.google.com/maps/d/edit?mid=1e1hf7wgweF9Dg7-H29FO6oaiCbp1uo4&usp=sharing'>Cultural places map</a>",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "And, if you want more cultural things in Tilburg, but not near your route, you can also choose <a target='_blank' href='(https://www.cupudo.nl/kunstwerken/'>Cupodo Art Pieces</a>!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Thank you so much for all the help! I will see you later!",
+                            "character" : "yasu"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

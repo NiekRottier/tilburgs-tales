@@ -1,0 +1,779 @@
+{
+    "locations" : [
+        {
+            "lat" : null,
+            "long" : null,
+            "accuracy" : null,
+            "track"  : [0],
+            "nextLocations" : [1],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Hey Cesar!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "You can start at the Spoorzone, it’s just north of the train station. You can still see the old train tracks crossing the square, and in that area there are also a bunch of refurbished factories!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "The LocHal is a great spot to look around",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Thanks Evi, that sounds great!",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "How are you doing btw?",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Still quite sick :( I’m sooo sad I can’t be there with you guys..",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Aah, that sucks.. Thank you so much for guiding us though!",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "By the way, when approaching the station you should be able to see the station clock, the ‘Wasknijper’, at the south side. It’s like a WW II monument.",
+                            "character" : "evi"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.560925,
+            "long" : 5.083739,
+            "accuracy" : 0.0003,
+            "track"  : [0],
+            "nextLocations" : [2, 3],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "I met a guy at the LocHal! He wanted to interview me about Tilburg, but since I barely know anything he explained some history of the Spoorzone to me",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "It was great hahaha",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Was he a student from the Journalism study there?",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Yeah! I didn’t expect that there would also be a school in this zone :P",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "They have everything there haha",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Oh, I got a text from Yasu. One sec!",
+                            "character" : "cesar"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [0],
+                    "friend" : "yasu",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Hey, where are you at?",
+                            "character" : "yasu"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "At the LocHal, you?",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "I was planning on going to the TextielMuseum. Do you want to join?",
+                            "character" : "yasu"
+                        },
+                        {
+                            "type" : "choice",
+                            "content" : [
+                                {
+                                    "text" : "Sounds great!",
+                                    "choice" : 1
+                                },
+                                {
+                                    "text" : "I'll pass",
+                                    "choice" : 2
+                                }
+                            ],
+                            "character" : "cesar"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [1],
+                    "friend" : "yasu",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Sounds great, I’ll meet you there!",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Where are you going after the TextielMuseum?",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "I was thinking of visiting the LocHal",
+                            "character" : "yasu"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Cool! I will also go that way, so we can walk together :)",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Nice!",
+                            "character" : "yasu"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "There is also a park on the way, called the Wilhelminapark, and it has a bunch of artsy things, like a stone car, a glass wall with a poem and some statue!",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Oh great! We can visit that on the way",
+                            "character" : "yasu"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [1],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "I’m going to the TextielMuseum with Yasu!",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "So cool! Have fun!",
+                            "character" : "evi"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [2],
+                    "friend" : "yasu",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "I think I’ll pass and go into the city centre! Thanks though :)",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "No worries!",
+                            "character" : "yasu"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [2],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Yasu asked me to go the TextielMuseum, but I’ll go into the city centre",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Then I’d suggest going through the Willem II passage and street and visit the Helga Deentuin. I’ll give you some more info when you’re there!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Alright, I’m on my way!",
+                            "character" : "cesar"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.571039,
+            "long" : 5.079244,
+            "accuracy" : 0.0003,
+            "track" : [1],
+            "nextLocations" : [3],
+            "chats" : [
+                {
+                    "track" : [1],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "When you're done with the museum you can go all the way back to the station through the Willem II tunnel and street and to the Helga Deentuin :)",
+                            "character" : "evi"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.559403,
+            "long" : 5.086724,
+            "accuracy" : 0.0003,
+            "track" : [1, 2],
+            "nextLocations" : [4],
+            "chats" : [
+                {
+                    "track" : [1, 2],
+                    "friend" : "emmanuel",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Look at what I found!",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "img",
+                            "content" : "ij-mural.jpg",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Niceeee, where is it?",
+                            "character" : "emmanuel"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "A bit down the Willem II straat",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Thanks bro",
+                            "character" : "emmanuel"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Maybe I’ll check it out today",
+                            "character" : "emmanuel"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.558753,
+            "long" : 5.086771,
+            "accuracy" : 0.0003,
+            "track" : [1, 2],
+            "nextLocations" : [5],
+            "chats" : [
+                {
+                    "track" : [1, 2],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "I’m at the garden",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Alright, so this garden is dedicated to Helga Deen, a 18 y/o Jewish girl who was sent to a concentration camp for a month and then to an extermination camp in Poland. During her time in the first camp she wrote a diary of her experiences for her boyfriend, Kees",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Kees wrote letters to her, but they kept being returned. The place of this garden is the spot where the post office used to be, next to the synagogue",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Oh no, that is such a sad story. And Helga was even younger than us!",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Absurd right? There should also be a statue here of two faces looking at each other.",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "There are also some signs that you maybe could translate? If you’re done you can go to the Heuvel.",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "I’ll let you know when I’m there :)",
+                            "character" : "cesar"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.557752,
+            "long" : 5.090394,
+            "accuracy" : 0.0003,
+            "track" : [1, 2],
+            "nextLocations" : [6],
+            "chats" : [
+                {
+                    "track" : [1, 2],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Alright, I’m here. What have you got?",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "So you have probably seen the statue of the guy? That’s King Willem II",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Aah, the guy from the street names",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Yes! He is quite popular in Tilburg and there are a bunch of places named after him. He really liked Tilburg, he felt free here",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "And do you see the green strokes on the square?",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Yeah",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "That was the place of the linden tree of Tilburg. Linden tree in Latin is apparently ‘Tillia’, and a burg/burcht is something like a castle. So that’s where Tilburg probably got its name from",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "That’s cool! So where is the tree now?",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "They cut it down a while ago",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "It was a whole thing, with people tying themselves to the tree and protesting around it. They really didn’t want it to go, but I guess a bike parking lot underneath the square was a big enough must..",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Awhh man, why..",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "You want a drink or some food after this amazing story?",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Yes please!!",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Alright, to the east there are a bunch of places. Heuvel15 is one of the oldest ones at the Kleine Heuvel, so that might be nice? ",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Nice!",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Afterwards you can go to Willemsplein and see a palace that Willem II had constructed (and never lived in because he died 20 something days before it was done)",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Oh.",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "They might still be working on the square there, but the building is still pretty :)",
+                            "character" : "evi"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.554471,
+            "long" : 5.086922,
+            "accuracy" : 0.0003,
+            "track"  : [1, 2],
+            "nextLocations" : [7],
+            "chats" : [
+                {
+                    "track"  : [1, 2],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "The bartender at Heuvel15 actually told me even more about the Linden tree story, apparently he was there when it was cut down!",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "That amazing! It’s such an iconic thing",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "By the way, I’m at the Willemsplein",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Great, so the white building is the palace that Willem II ordered to be constructed. It was finished in 1849, and in 1866 the building was gifted to Tilburg to be used as a school building. Vincent van Gogh actually went to school there!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Some 70 years later it was renovated and used as a city hall, but now it’s mostly used for small meetings and weddings.",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Wait, Van Gogh went there? That’s so cool, Yasu would love to know that!",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Hahaha yes!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "There should also be a big old church at the square with a whole bunch of statues around it and a monument for Willem II",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "It looks like a needle",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Take a look around, and when you’re finished you can visit a little freedom park with some monuments if you’re interested. It’s a bit south.",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "And after you can either go past an abbey and through a park or skip that and take a more direct route. What do you like better?",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "choice",
+                            "content" : [
+                                {
+                                    "text" : "The abbey sounds interesting",
+                                    "choice" : 3
+                                },
+                                {
+                                    "text" : "I'll skip the abbey",
+                                    "choice" : 4
+                                }
+                            ],
+                            "character" : "evi"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [3],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "I like the sound of the abbey route!",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Alright, across the street there is a concert hall, it’s a bit rusty orange and says ‘concertzaal’ in white letters.",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "I see it",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Walk to the right side of the building and you should see some stairs with 3 statues that look like nuns (look them in the eyes)",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Walk down the stairs and through the street. The big building on your right is an abbey! When you see a gate into a park you take it and just walk through it and look around. Afterwards you can go to Cemetery ‘t Heike and text me when your there.",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Thanks",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Talk to you soon!",
+                            "character" : "cesar"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [4],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "I think I’ll skip the abbey",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Alright, if you walk past the front of the church, take the first left past the statue of a guy walking. Just follow the road, past the chapel, to a little square",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "There should be a little statue of a guy holding a pot! That a kruikenzeiker. They used to bring their urine to the wool factories where it would be used for making nice textiles.",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Hahahha what??",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Yeah! During Carnaval the city is also called Kruikenstad, Jar city, because of this :P",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "From there you follow the Heuvelstraat and just keep going that way until you run into a cemetery with a whole bunch of statues along the fence",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Thanks Evi! I’ll let you know when I’m there!",
+                            "character" : "cesar"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.555299,
+            "long" : 5.077711,
+            "accuracy" : 0.0003,
+            "track"  : [3, 4],
+            "nextLocations" : [8],
+            "chats" : [
+                {
+                    "track"  : [3, 4],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "I’m at the cemetery! So many statues :o",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Yess, and they go all past the front fence. I think they are all saints. There is one with a dragon that I like!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Oooh gonna look that one up",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "But before you go, There is one grave in particular that is interesting. It belonged to Marietje Kessels. A young girl that was raped and murdered, and whose case was never fully closed. But the murder spawned a bunch of books, theatre plays and a self defence program for young kids",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "That’s so sad.. So they don’t know who did it?",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Not for sure, but there are a bunch of suspects. The person who most people suspect is the pastor, since she was found in the church and he wasn’t really investigated because he was of the clergy",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "He was actually also buried in this graveyard",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Oh what, that’s.. interesting",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Can I pay my respects here?",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Yeah, she has quite a peculiar stone",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "img",
+                            "content" : "kessels-grave.jpg",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "It’s somewhere before the hill on your right",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Thanks!",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Afterwards you can go to the Huis van Muziek, the House of Music",
+                            "character" : "evi"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.558458,
+            "long" : 5.082270,
+            "accuracy" : 0.002,
+            "track"  : [3, 4],
+            "nextLocations" : [],
+            "chats" : [
+                {
+                    "track"  : [3, 4],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Hey, I’m at the music place! It does look pretty closed though?",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Oh noo, yeah, it closes after 17.00…",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Otherwise you could’ve gotten a bit of food here. But no worries, you can eat in a minute! And I’ll tell you a bit about this place in the meantime.",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "So this house is a bit of a mash-up. There’s a music school, but also a place to eat and a museum about the father of Marietje, Mathieu Kessels. He actually had a musical instrument factory which at the time was the biggest of Europe, and he was one of the biggest employers in Tilburg!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Oh wow, I didn’t expect that haha",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "The place of the factory is now the Spoorpark, but there is a little monument thingy there to remember it",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "I sent Mei there, maybe she can show you a picture when we’re together again",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "But first (and finally), food :)",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Yesss, where to?",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Back to the Willem II street! There are a bunch of food places there, so you can just pick one. And afterwards you can go to Biercafé Kandinsky for a beer. They have 200+ sorts of beer, so there should be a good one for you!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Thank you sooo much for the tour! Can wait to meet with everyone again and share hahaha",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Eet smakelijk and see you soon!",
+                            "character" : "evi"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

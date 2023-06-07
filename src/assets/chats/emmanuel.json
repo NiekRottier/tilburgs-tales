@@ -1,0 +1,24 @@
+{
+    "locations" : [
+        {
+            "lat" : null,
+            "long" : null,
+            "accuracy" : null,
+            "track"  : [0],
+            "nextLocations" : [],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Hey Emmanuel!",
+                            "character" : "evi"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
