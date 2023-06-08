@@ -9,6 +9,9 @@ $cesar: #6AA7DB;
 $mei: #BAD166;
 
 .characterPage{
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 6vh;
     &.char-emmanuel{
         .header, .btn, footer{
             background-color: $emmanuel;
@@ -139,6 +142,8 @@ $mei: #BAD166;
     }
     
     footer{
+        position: absolute;
+        bottom: 0;
         display: flex;
         justify-content: center;
         align-items: center;
