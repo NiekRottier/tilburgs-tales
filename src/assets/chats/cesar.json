@@ -23,7 +23,7 @@
                         },
                         {
                             "type" : "text",
-                            "content" : "The LocHal is a great spot to look around",
+                            "content" : "The LocHal is a great spot to look around! Use your USE-IT map to see what’s around, and of course, go explore on your own!",
                             "character" : "evi"
                         },
                         {
@@ -48,7 +48,7 @@
                         },
                         {
                             "type" : "text",
-                            "content" : "By the way, when approaching the station you should be able to see the station clock, the ‘Wasknijper’, at the south side. It’s like a WW II monument.",
+                            "content" : "By the way, when approaching the station you might see the station clock, the ‘Wasknijper’, at the south side. It’s like a WW II monument.",
                             "character" : "evi"
                         }
                     ]
@@ -60,7 +60,7 @@
             "long" : 5.083739,
             "accuracy" : 0.0003,
             "track"  : [0],
-            "nextLocations" : [2, 3],
+            "nextLocations" : [2, 3, 4],
             "chats" : [
                 {
                     "track"  : [0],
@@ -78,7 +78,7 @@
                         },
                         {
                             "type" : "text",
-                            "content" : "Was he a student from the Journalism study there?",
+                            "content" : "Was he a student from the journalism study there?",
                             "character" : "evi"
                         },
                         {
@@ -272,7 +272,12 @@
                         },
                         {
                             "type" : "text",
-                            "content" : "Niceeee, where is it?",
+                            "content" : "Thanks for remembering how much I love murals <3",
+                            "character" : "emmanuel"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Where is it?",
                             "character" : "emmanuel"
                         },
                         {
@@ -287,7 +292,7 @@
                         },
                         {
                             "type" : "text",
-                            "content" : "Maybe I’ll check it out today",
+                            "content" : "I hope I can check it out today!",
                             "character" : "emmanuel"
                         }
                     ]
@@ -467,7 +472,7 @@
                         },
                         {
                             "type" : "text",
-                            "content" : "That amazing! It’s such an iconic thing",
+                            "content" : "That amazing! It’s such an iconic event",
                             "character" : "evi"
                         },
                         {
@@ -643,7 +648,73 @@
                         },
                         {
                             "type" : "text",
-                            "content" : "But before you go, There is one grave in particular that is interesting. It belonged to Marietje Kessels. A young girl that was raped and murdered, and whose case was never fully closed. But the murder spawned a bunch of books, theatre plays and a self defence program for young kids",
+                            "content" : "But before you go, There is one grave in particular that is interesting. I do have to warn you that the story is quite shocking and contains mentions about sexual assault! Do you want to hear it?",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "choice",
+                            "content" : [
+                                {
+                                    "text" : "I think I'll skip it",
+                                    "choice" : 3
+                                },
+                                {
+                                    "text" : "I'll hear the story",
+                                    "choice" : 4
+                                }
+                            ],
+                            "character" : "cesar"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [3],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "I'd rather not hear it",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Okay, no worries!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Then you can still look at all the statues and afterwards continue to the Huis van Muziek, the House of Music!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Sounds good, I'll be on my way!",
+                            "character" : "cesar"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [4],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "I would like to hear it",
+                            "character" : "cesar"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Okay, so here is the story",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "The grave belongs to Marietje Kessels. She was a young girl who was raped and murdered. The case was never fully closed, but everyone in Tilburg at the time, and a lot still today, know about it. Afterwards the murder sparked a bunch of books, theatre plays and a self defence program for young kids that’s now a nation-wide thing",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "So, the grave belongs to Marietje Kessels. She was a young girl who was raped and murdered. The case was never fully closed, but everyone in Tilburg at the time, and a lot still today, know about it. Afterwards the murder sparked a bunch of books, theatre plays and a self defence program for young kids, that’s now a nation-wide thing",
                             "character" : "evi"
                         },
                         {
@@ -653,7 +724,7 @@
                         },
                         {
                             "type" : "text",
-                            "content" : "Not for sure, but there are a bunch of suspects. The person who most people suspect is the pastor, since she was found in the church and he wasn’t really investigated because he was of the clergy",
+                            "content" : "Not for sure, but there are a bunch of suspects. The person who most people suspect is the pastor, since Marietje was found in the church, and the pastor wasn’t really investigated because he was of the clergy",
                             "character" : "evi"
                         },
                         {
@@ -663,17 +734,17 @@
                         },
                         {
                             "type" : "text",
-                            "content" : "Oh what, that’s.. interesting",
+                            "content" : "Oh what, that’s... strange...",
                             "character" : "cesar"
                         },
                         {
                             "type" : "text",
-                            "content" : "Can I pay my respects here?",
+                            "content" : "Could I pay my respects here?",
                             "character" : "cesar"
                         },
                         {
                             "type" : "text",
-                            "content" : "Yeah, she has quite a peculiar stone",
+                            "content" : "Yes you can, she has quite a peculiar stone",
                             "character" : "evi"
                         },
                         {
@@ -683,12 +754,12 @@
                         },
                         {
                             "type" : "text",
-                            "content" : "It’s somewhere before the hill on your right",
+                            "content" : "It’s somewhere before the hill on your right, just be respectful",
                             "character" : "evi"
                         },
                         {
                             "type" : "text",
-                            "content" : "Thanks!",
+                            "content" : "Of course!",
                             "character" : "cesar"
                         },
                         {

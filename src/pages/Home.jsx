@@ -78,9 +78,9 @@ function Home() {
             </div>
             <div className="character-info-cesar">
                 <h2>Cesar | History</h2>
-                <a className="insta-icon"  target="_blank" href="https://www.instagram.com/cesarespinoza_2001/"><img src="/img/icons/insta-icon.svg" alt="instagram link" /></a>
+                <a className="insta-icon" target="_blank" href="https://www.instagram.com/cesarespinoza_2001/"><img src="/img/icons/insta-icon.svg" alt="instagram link" /></a>
                 <p className="intro">A Pathway to Memories</p>
-                <p>Hola! I'm Cesar, 21 years old and I study history. Follow me to become a true Tilburg expert! I hope to meet some locals and discover what they know about Tilburg. During the journey you will collect your own ‘Tilburg Expert’ certificate! You might spend anywhere from 2.5 to 4 hours with me!</p>
+                <p>Hola! I'm Cesar, 21 years old and I study history. Follow me to become a true Tilburg expert! I hope to meet some locals and discover what they know about Tilburg. During the journey you will collect your own ‘Tilburg Expert’ certificate! You might spend around 2 to 3 hours with me!</p>
                 <div className="start-button"><Link to="/character" state={{ character: 'cesar', title: 'A Pathway to Memories' }}>START</Link></div>
             </div>
         </div>
