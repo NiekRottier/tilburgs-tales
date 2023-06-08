@@ -371,7 +371,7 @@ function Chat({location, mainCharacter}) {
   useEffect(() => {
     if (!objIsEmpty(chatJson) && currentLocation !== null) {
       // console.log(currentLocation + ' | ' +chatJson.locations.length);
-      if (currentLocation+1 === chatJson.locations.length) {
+      if (currentLocation+1 === chatJson.locations.length && !chatActive) {
         document.querySelector('.final-text').classList.add('active')
         document.title = `${mainCharacter.toLowerCase().replace(/\b[a-z]/g, letter => { return letter.toUpperCase()})}'s Route - Final`
       } else {
@@ -380,7 +380,7 @@ function Chat({location, mainCharacter}) {
     } else {
       document.querySelector('.final-text').classList.remove('active')
     }
-  }, [currentLocation])
+  }, [chatActive])
 
   function resetRoute() {
     // Clear all chats and active classes
@@ -410,6 +410,14 @@ function Chat({location, mainCharacter}) {
     <div className='chat'>
       { skipButtons }
 
+      <div className="final-text">
+        <p><b>Well done! <br /> 
+        You have finished { mainCharacter.toLowerCase().replace(/\b[a-z]/g, letter => { return letter.toUpperCase()}) }'s route.</b> <br /> <br />
+        Feel free to continue exploring Tilburg or follow another character's route. <br />
+        If you wish to reset this route, click the button below.</p>
+        <div className={`btn-finish-${mainCharacter}`} onClick={resetRoute}>Reset { mainCharacter.toLowerCase().replace(/\b[a-z]/g, letter => { return letter.toUpperCase()}) }'s route</div>
+      </div>
+
       <div className="character-choices">
         <div className="character-evi"><img onClick={ () => switchCharacter('evi') } src="/img/characters/evi_profile.jpg"></img></div>
         <div className="character-emmanuel"><img onClick={ () => switchCharacter('emmanuel') } src="/img/characters/emmanuel_profile.jpg"></img></div>
@@ -425,14 +433,7 @@ function Chat({location, mainCharacter}) {
       <div className="chat-char-yasu"></div>
       <div className="chat-char-mei"></div>
       <div className="chat-char-cesar"></div>
-      
-      <div className="final-text">
-        <p><b>Well done! <br /> 
-        You have finished { mainCharacter.toLowerCase().replace(/\b[a-z]/g, letter => { return letter.toUpperCase()}) }'s route.</b> <br /> <br />
-        Feel free to continue exploring Tilburg or follow another character's route. <br />
-        If you wish to reset this route, click the button below.</p>
-        <div className={`btn-finish-${mainCharacter}`} onClick={resetRoute}>Reset { mainCharacter.toLowerCase().replace(/\b[a-z]/g, letter => { return letter.toUpperCase()}) }'s route</div>
-      </div>
+
     </div>
   );
 }
