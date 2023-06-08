@@ -76,14 +76,10 @@ function Chat({location, mainCharacter}) {
 
   // Checks position
   function checkPosition(check) {
-    let locationDOM = document.querySelector('.location')
     console.log('Check location');
     if (check.lat-check.accuracy <= location.latitude && location.latitude <= check.lat+check.accuracy
       && check.long-check.accuracy <= location.longitude && location.longitude <= check.long+check.accuracy) {
         setCurrentLocation(check.location)
-        locationDOM.classList.add('correct')
-    } else {
-      locationDOM.classList.remove('correct')
     }
   }
 
@@ -206,6 +202,33 @@ function Chat({location, mainCharacter}) {
     })
   }
 
+  // Put a 'new location' element in the chat
+  useEffect(() => {
+    if (currentLocation > 0) {
+      // Delete old noficications
+      let oldNotifications = document.getElementsByClassName('new-chat-notification')
+      for (let i = 0; i < oldNotifications.length; i++) {
+        oldNotifications[i].remove()
+      }
+
+      // Create new notifcation
+      let chatContainer = document.querySelector('.chat-char-'+chatJson.locations[currentLocation].chats[0].friend)
+      
+      let containerEl = document.createElement('div')
+      containerEl.classList.add('new-chat-notification')
+      let textEl = document.createElement('small')
+      textEl.innerHTML = 'New messages'
+      let bar1El = document.createElement('hr')
+      let bar2El = document.createElement('hr')
+      
+      containerEl.appendChild(bar1El)
+      containerEl.appendChild(textEl)
+      containerEl.appendChild(bar2El)
+
+      chatContainer.insertBefore(containerEl, chatContainer.firstChild)
+    }
+  }, [currentLocation])
+
   useEffect(() => {
     if(chatActive){ 
       // Check if the current track is represented in the chat
@@ -229,7 +252,7 @@ function Chat({location, mainCharacter}) {
           if (msgType !== "choice" && msgType !== "code") { // Pause if last msg was a choice or code
             setTimeout(() => {
               setMessageId(prevId => prevId + 1)
-            }, 1000)
+            }, 100)
           }
         } else if (chatId+1 < chatJson.locations[currentLocation].chats.length) { // If there are still chats
           setChatId(prevId => prevId + 1)
@@ -385,7 +408,7 @@ function Chat({location, mainCharacter}) {
 
   return (
     <div className='chat'>
-      {/* { skipButtons } */}
+      { skipButtons }
 
       <div className="character-choices">
         <div className="character-evi"><img onClick={ () => switchCharacter('evi') } src="/img/characters/evi_profile.jpg"></img></div>

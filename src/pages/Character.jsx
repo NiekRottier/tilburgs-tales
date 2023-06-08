@@ -8,10 +8,10 @@ import { useLocation } from 'react-router-dom';
 function Character() {
   const properties = useLocation()
   const [location, setLocation] = useState({ 'latitude' : 0, 'longitude' : 0, 'accuracy' : 0})
-  const [chatActive, setchatActive] = useState(true)
+  const [chatActive, setChatActive] = useState(true)
   const [component, setComponent] = useState(<p>Loading...</p>)
-  const [character, setCharacter] = useState(properties.state.character ? properties.state.character : 'cesar')
-  const [title, setTitle] = useState(properties.state.title ? properties.state.title : 'A Pathway to Memories')
+  const [character, setCharacter] = useState(properties.state ? properties.state.character : 'cesar')
+  const [title, setTitle] = useState(properties.state ? properties.state.title : 'A Pathway to Memories')
 
   // Add character class to main element for CSS styling
   useEffect(() => {
@@ -64,7 +64,7 @@ function Character() {
         <h1>{ character }</h1>
         <p>{ title }</p>
         <div className={chatActive ? 'btn active' : 'btn'}
-          onClick={() => setchatActive(true)}>Chat</div>
+          onClick={() => setChatActive(true)}>Chat</div>
         <div className={!chatActive ? 'btn active' : 'btn'}
           /* onClick={() => setchatActive(false)} */><i>WIP: Coming soon</i></div>
       </div>
@@ -74,10 +74,9 @@ function Character() {
         { component }
       </div>
 
-      <a className='location' href={`https://www.openstreetmap.org/#map=20/${location.latitude}/${location.longitude}`} target='_blank'>
-          <p>Coords: {location.latitude}, {location.longitude}</p>
-          <p>Accuracy: {location.accuracy}</p>
-      </a>
+      <footer>
+        <p>&copy; DVANC - 2023</p>
+      </footer>
     </div>
   );
 }
