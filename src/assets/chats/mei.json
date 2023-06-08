@@ -124,7 +124,7 @@
                         },
                         {
                             "type" : "img",
-                            "content" : "placeholder.webp",
+                            "content" : "credit-card.png",
                             "character" : "evi"
                         },
                         {
@@ -144,28 +144,18 @@
                         },
                         {
                             "type" : "text",
-                            "content" : "I found my it!! But there are some weird numbers next to it?",
+                            "content" : "I found my it!! But what are those weird numbers on it?",
                             "character" : "mei"
                         },
                         {
                             "type" : "text",
-                            "content" : "The numbers 51.563629 and 5.032786",
+                            "content" : "They look like coords.. You should look them up!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Yes! I will",
                             "character" : "mei"
-                        },
-                        {
-                            "type" : "text",
-                            "content" : "They look like coords.. Let me look it up",
-                            "character" : "evi"
-                        },
-                        {
-                            "type" : "text",
-                            "content" : "They point to the Grotto Café in the center of the park behind the University",
-                            "character" : "evi"
-                        },
-                        {
-                            "type" : "text",
-                            "content" : "We went there yesterday!",
-                            "character" : "evi"
                         }
                     ]
                 }
@@ -189,12 +179,27 @@
                         },
                         {
                             "type" : "img",
-                            "content" : "placeholder.webp",
+                            "content" : "mirror-book.png",
                             "character" : "evi"
                         },
                         {
                             "type" : "text",
                             "content" : "Great! I'm going to search for it!",
+                            "character" : "mei"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "I also found your travel diary in my house! I swear I haven't looked in it!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "<a target='_blank' href='/chat/pdf/mei/travel-diary.pdf'>Mei's Travel Diary</a>",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Oh thank you! Maybe I wrote something down yesterday that can help me",
                             "character" : "mei"
                         }
                     ]
@@ -213,13 +218,18 @@
                     "friend" : "evi",
                     "msgs" : [
                         {
+                            "type" : "text",
+                            "content" : "Mei! I did it! I got all my stuff :D",
+                            "character" : "mei"
+                        },
+                        {
                             "type" : "video",
                             "content" : "https://www.youtube.com/embed/ScMzIvxBSi4",
                             "character" : "evi"
                         },
                         {
                             "type" : "text",
-                            "content" : "PLACEHOLDER: Congrats Mei! You found all of your stuff! You deserve a little treat… How about an ice cream made by a specialist? His family has been making ice cream for 4 generations! This is my favorite place to end the day when I come to this area!",
+                            "content" : "PLACEHOLDER: Congrats Mei! You deserve a little treat… How about an ice cream made by a specialist? His family has been making ice cream for 4 generations! This is my favorite place to end the day when I come to this area!",
                             "character" : "evi"
                         }
                     ]
