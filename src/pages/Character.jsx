@@ -31,7 +31,8 @@ function Character() {
         location={location} 
         mainCharacter={character} />)
     } else {
-      setComponent(<Overview />)
+      setComponent(<Overview
+        mainCharacter={character} />)
     }
   }, [chatActive, location, character])
 
@@ -66,7 +67,7 @@ function Character() {
         <div className={chatActive ? 'btn active' : 'btn'}
           onClick={() => setChatActive(true)}>Chat</div>
         <div className={!chatActive ? 'btn active' : 'btn'}
-          /* onClick={() => setchatActive(false)} */><i>WIP: Coming soon</i></div>
+          onClick={() => setChatActive(false)}>Extra's</div>
       </div>
 
       <div className='body'>
