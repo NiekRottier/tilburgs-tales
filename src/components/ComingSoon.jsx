@@ -1,4 +1,4 @@
-import '../style/comingsoon.scss';
+import '../style/extraPage.scss';
 
 function Overview({backFunction}) {
   return (

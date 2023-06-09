@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import '../style/overview.scss';
 import ComingSoon from './ComingSoon'
+import GoWild from './mei/GoWild'
+import Spoilers from './mei/Spoilers'
 
 function Overview({mainCharacter}) {
   const buttonsEl = <div className="button-container">
@@ -18,8 +20,8 @@ function Overview({mainCharacter}) {
     </div>
     <div className="buttons--mei">
       <a className="btn" target="_blank" href="https://www.instagram.com/meiyu_explorer/"><img src="/img/icons/insta-icon-white.svg" alt="instagram icon" />Check my Insta</a>
-      <a className="btn" onClick={() => setActiveEl(<ComingSoon backFunction={() => setActiveEl(buttonsEl)} />)}>Go Wild!</a>
-      <a className="btn" onClick={() => setActiveEl(<ComingSoon backFunction={() => setActiveEl(buttonsEl)} />)}>Spoilers</a>
+      <a className="btn" onClick={() => setActiveEl(<GoWild backFunction={() => setActiveEl(buttonsEl)} />)}>Go Wild!</a>
+      <a className="btn" onClick={() => setActiveEl(<Spoilers backFunction={() => setActiveEl(buttonsEl)} />)}>Spoilers</a>
     </div>
     <div className="buttons--cesar">
       <a className="btn" target="_blank" href="https://www.instagram.com/cesarespinoza_2001/"><img src="/img/icons/insta-icon-white.svg" alt="instagram icon" />Check my Insta</a>

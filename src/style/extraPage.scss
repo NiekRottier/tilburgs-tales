@@ -1,0 +1,66 @@
+@use './general';
+
+.comingsoon, .spoilers, .goWild{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    
+    .back-btn{
+        position: absolute;
+        top: -0.2rem;
+        left: 0;
+        display: inline;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    h2{
+        display: inline;
+        align-self: center;
+        max-width: max-content;
+    }
+}
+
+.spoilers{
+    [class *= 'spoiler']{
+        display: none;
+        text-align: center;
+
+        &.btn{
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            color: white;
+            font-weight: 600;
+            box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2509803922);
+            cursor: pointer;
+        }
+
+        &.spoiler-1.btn{
+            display: initial;
+        }
+
+        &.show{
+            display: initial;
+        }
+
+    }
+}
+
+.goWild{
+    > .intro-evi{
+        text-align: center;
+    }
+
+    > p{
+        margin-bottom: 0;
+    }
+
+    > ul {
+        margin-top: 0;
+
+        >li > a{
+            color: black;
+        }
+    }
+}
