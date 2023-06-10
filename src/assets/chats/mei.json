@@ -48,7 +48,7 @@
                         },
                         {
                             "type" : "text",
-                            "content" : "Yeah, do you remember my Instagram password? You helped me create it.",
+                            "content" : "Yeah, do you remember my Instagram password? You helped me create it. I need it to know where I can find my stuff",
                             "character" : "mei"
                         },
                         {
@@ -58,7 +58,7 @@
                         },
                         {
                             "type" : "text",
-                            "content" : "You know what? My mom always told me that if I want to remember something, I need to make my brain exercise a little bit.",
+                            "content" : "You know what? My mom always told me that if I want to remember something, I need to make my brain exercise a little bit",
                             "character" : "cesar"
                         },
                         {
@@ -119,43 +119,13 @@
                     "msgs" : [
                         {
                             "type" : "text",
-                            "content" : "Mei! I just found a pic on my phone! I think it’s your credit card!",
+                            "content" : "Mei! I just found a pic on my phone! I think it’s your credit card! You should check the numbers, it reminds me of coordinates!",
                             "character" : "evi"
                         },
                         {
                             "type" : "img",
                             "content" : "credit-card.png",
                             "character" : "evi"
-                        },
-                        {
-                            "type" : "text",
-                            "content" : "I took the photo at Het Dorstige Hert, the café close to Tilburg University",
-                            "character" : "evi"
-                        },
-                        {
-                            "type" : "text",
-                            "content" : "I am there! I'm going to look around",
-                            "character" : "mei"
-                        },
-                        {
-                            "type" : "text",
-                            "content" : "...",
-                            "character" : "mei"
-                        },
-                        {
-                            "type" : "text",
-                            "content" : "I found my it!! But what are those weird numbers on it?",
-                            "character" : "mei"
-                        },
-                        {
-                            "type" : "text",
-                            "content" : "They look like coords.. You should look them up!",
-                            "character" : "evi"
-                        },
-                        {
-                            "type" : "text",
-                            "content" : "Yes! I will",
-                            "character" : "mei"
                         }
                     ]
                 }
@@ -189,7 +159,42 @@
                         },
                         {
                             "type" : "text",
-                            "content" : "I also found your travel diary in my house! I swear I haven't looked in it!",
+                            "content" : "I've always wondered why Emmanuel bought you this book, the title is so weird!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Emmanuel loves anything that’s out of the ordinary, you have to use a mirror to decipher the title!",
+                            "character" : "mei"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "By the way, did you two have a chance to talk?",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "No... I'd rather find my stuff quickly and talk to you about it afterwards!",
+                            "character" : "mei"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.571757,
+            "long" : 5.039765,
+            "accuracy" : 0.0002,
+            "track"  : [0],
+            "nextLocations" : [5],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Omg Mei! I was just about to brush my teeth when I found your Travel Diary in my bathroom cabinet! I promise I didn't read anything!",
                             "character" : "evi"
                         },
                         {
@@ -199,7 +204,7 @@
                         },
                         {
                             "type" : "text",
-                            "content" : "Oh thank you! Maybe I wrote something down yesterday that can help me",
+                            "content" : "Oh thank you! I don’t remember putting it there haha. Well, my quest is over! But I think I’m near a place that I wanted to go to, I even wrote the address on the to do list in my diary!",
                             "character" : "mei"
                         }
                     ]
@@ -218,18 +223,13 @@
                     "friend" : "evi",
                     "msgs" : [
                         {
-                            "type" : "text",
-                            "content" : "Mei! I did it! I got all my stuff :D",
-                            "character" : "mei"
-                        },
-                        {
                             "type" : "video",
                             "content" : "https://www.youtube.com/embed/ScMzIvxBSi4",
                             "character" : "evi"
                         },
                         {
                             "type" : "text",
-                            "content" : "PLACEHOLDER: Congrats Mei! You deserve a little treat… How about an ice cream made by a specialist? His family has been making ice cream for 4 generations! This is my favorite place to end the day when I come to this area!",
+                            "content" : "PLACEHOLDER: Congrats Mei! You found all of your stuff! Now you deserve a little prize… How about an ice cream made by a specialist? His family has been making ice cream for 4 generations! This is my favorite place to end the day when I come to this area! Hey! Have you heard it? I’m feeling better! Watch me going out tonight haha! Let’s meet later, bye!",
                             "character" : "evi"
                         }
                     ]

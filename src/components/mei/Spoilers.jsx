@@ -23,9 +23,9 @@ function Overview({backFunction}) {
       <div className='btn spoiler-1' onClick={() => toggleSpoiler(1)}>The Kempentoren spoiler</div>
       <p className='spoiler-1'>Code: H20198</p>
       <div className='btn spoiler-2' onClick={() => toggleSpoiler(2)}>Het Dorstige Hert spoiler</div>
-      <p className='spoiler-2'>The numbers on the credit card are coordinates to the Grotto Café</p>
+      <p className='spoiler-2'>The coordinates lead to the Grotto Café</p>
       <div className='btn spoiler-3' onClick={() => toggleSpoiler(3)}>Grotto Café spoiler</div>
-      <p className='spoiler-3'>Put the book infront of a mirror</p>
+      <p className='spoiler-3'>Put the book in front of a mirror</p>
       <div className='btn spoiler-4' onClick={() => toggleSpoiler(4)}>Kinderboederij Wandelbos spoiler</div>
       <p className='spoiler-4'>Go to page 5 in the diary for the location</p>
     </div>

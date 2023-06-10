@@ -252,7 +252,7 @@ function Chat({location, mainCharacter}) {
           if (msgType !== "choice" && msgType !== "code") { // Pause if last msg was a choice or code
             setTimeout(() => {
               setMessageId(prevId => prevId + 1)
-            }, 100)
+            }, 1500)
           }
         } else if (chatId+1 < chatJson.locations[currentLocation].chats.length) { // If there are still chats
           setChatId(prevId => prevId + 1)
