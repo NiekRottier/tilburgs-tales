@@ -1,6 +1,6 @@
 import '../../style/extraPage.scss';
 
-function Overview({backFunction}) {
+function Spoilers({backFunction}) {
 	function toggleSpoiler(number){
 		// Show spoiler
 		let spoilerAnswer = document.querySelectorAll(`.spoiler-${number}`)
@@ -32,4 +32,4 @@ function Overview({backFunction}) {
   );
 }
 
-export default Overview;
+export default Spoilers;

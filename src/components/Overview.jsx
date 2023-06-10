@@ -3,6 +3,8 @@ import '../style/overview.scss';
 import ComingSoon from './ComingSoon'
 import GoWild from './mei/GoWild'
 import Spoilers from './mei/Spoilers'
+import LocalConvos from './cesar/LocalConvos'
+import Certificate from './cesar/Certificate';
 
 function Overview({mainCharacter}) {
   const buttonsEl = <div className="button-container">
@@ -25,8 +27,8 @@ function Overview({mainCharacter}) {
     </div>
     <div className="buttons--cesar">
       <a className="btn" target="_blank" href="https://www.instagram.com/cesarespinoza_2001/"><img src="/img/icons/insta-icon-white.svg" alt="instagram icon" />Check my Insta</a>
-      <a className="btn" onClick={() => setActiveEl(<ComingSoon backFunction={() => setActiveEl(buttonsEl)} />)}>Talks with Locals</a>
-      <a className="btn" onClick={() => setActiveEl(<ComingSoon backFunction={() => setActiveEl(buttonsEl)} />)}>My Expert Certificate</a>
+      <a className="btn" onClick={() => setActiveEl(<LocalConvos backFunction={() => setActiveEl(buttonsEl)} />)}>Talks with Locals</a>
+      <a className="btn" onClick={() => setActiveEl(<Certificate backFunction={() => setActiveEl(buttonsEl)} />)}>My Expert Certificate</a>
     </div>
   </div>
 

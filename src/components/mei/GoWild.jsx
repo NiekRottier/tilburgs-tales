@@ -1,6 +1,6 @@
 import '../../style/extraPage.scss';
 
-function Overview({backFunction}) {
+function GoWild({backFunction}) {
   return (
     <div className="goWild">
       <p className='back-btn' onClick={backFunction}>&lsaquo;</p>
@@ -26,4 +26,4 @@ function Overview({backFunction}) {
   );
 }
 
-export default Overview;
+export default GoWild;
