@@ -14,7 +14,6 @@ function Overview({mainCharacter}) {
     </div>
     <div className="buttons--ania">
       <a className="btn" target="_blank" href="https://www.instagram.com/_ania.kowalski_/"><img src="/img/icons/insta-icon-white.svg" alt="instagram icon" />Check my Insta</a>
-      <a className="btn" onClick={() => setActiveEl(<ComingSoon backFunction={() => setActiveEl(buttonsEl)} />)}>Evidence</a>
     </div>
     <div className="buttons--yasu">
       <a className="btn" target="_blank" href="https://www.instagram.com/yass_hasegawa/"><img src="/img/icons/insta-icon-white.svg" alt="instagram icon" />Check my Insta</a>

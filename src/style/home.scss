@@ -37,7 +37,7 @@ $mei: #BAD166;
             position: absolute;
             bottom: 0;
 
-            .character-emmanuel, .character-ania{
+            .character-emmanuel{
                 filter: grayscale(0.7);
             }
         }
@@ -87,7 +87,7 @@ $mei: #BAD166;
             }
         }
 
-        &[class*="emmanuel"], &[class*="ania"]{
+        &[class*="emmanuel"]{
             filter: grayscale(0.7);
         }
     

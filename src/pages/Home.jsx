@@ -37,11 +37,11 @@ function Home() {
                 {/* <iframe className="video" width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> */}
                 <div className="video"><i>Video coming soon</i></div>
                 <div className="character-choices">
+                    <div className="character-ania"><img onClick={ () => switchCharacter('ania') } src="/img/characters/ania_profile.jpg"></img></div>
                     <div className="character-mei active"><img onClick={ () => switchCharacter('mei') } src="/img/characters/mei_profile.jpg"></img></div>
                     <div className="character-cesar"><img onClick={ () => switchCharacter('cesar') } src="/img/characters/cesar_profile.jpg"></img></div>
                     <div className="character-yasu"><img onClick={ () => switchCharacter('yasu') } src="/img/characters/yasu_profile.jpg"></img></div>
                     <div className="character-emmanuel"><img onClick={ () => switchCharacter('emmanuel') } src="/img/characters/emmanuel_profile.jpg"></img></div>
-                    <div className="character-ania"><img onClick={ () => switchCharacter('ania') } src="/img/characters/ania_profile.jpg"></img></div>
                 </div>
             </div>
 
@@ -58,8 +58,7 @@ function Home() {
                 <a className="insta-icon" target="_blank" href="https://www.instagram.com/_ania.kowalski_/"><img src="/img/icons/insta-icon.svg" alt="instagram link" /></a>
                 <p className="intro">A Little Party Never Killed Anyone</p>
                 <p>Ania's exiting route will guide you to all the party places in Tilburg while solving a murder case!</p>
-                {/* <div className="start-button"><Link to="/character" state={{ character: 'ania', title: 'A Little Party Never Killed Anyone' }}>START</Link></div> */}
-                <div className="start-button"><Link><i>Coming soon</i></Link></div>
+                <div className="start-button"><Link to="/character" state={{ character: 'ania', title: 'A Little Party Never Killed Anyone' }}>START</Link></div>
             </div>
             <div className="character-info-yasu">
                 <h2>Yasu | Culture</h2>

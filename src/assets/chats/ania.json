@@ -5,6 +5,311 @@
             "long" : null,
             "accuracy" : null,
             "track"  : [0],
+            "nextLocations" : [1],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Hey Ania I know you’re still pretty hungover, that’s why you definitely should start at the Brunchcafé Koppig. They have the best strawberry cream cheese waffles I’ve ever had!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Let me know when you’re there and don’t forget to document your whole day on Instagram so other people can follow your adventure 😊",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Uh, I think that’s exactly what I need now! You’ll hear from me 😊",
+                            "character" : "ania"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [0],
+                    "friend" : "emmanuel",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Hey Emmanuel… I was wondering if you start our day with a delicious brunch at Brunchcafé Kopping? They serve the most mouthwatering dishes and have a cozy atmosphere. It's the perfect spot to fuel up before our adventure.",
+                            "character" : "ania"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Sounds like a plan, Ania! Brunch is always a good idea. I can already picture Instagram-worthy shots. But unfortunately, I’m already on my way to the De Pont Museum. I might grab something for breakfast at the Market though.",
+                            "character" : "emmanuel"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Alright, well maybe tomorrow…",
+                            "character" : "ania"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Sounds good! Have fun, and don’t forget to post everything on Instagram. I’m curious to see how your trip’s going.",
+                            "character" : "emmanuel"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Of course! But you too 😊",
+                            "character" : "ania"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.55747512170783,
+            "long" : 5.084627553673084,
+            "accuracy" : 0.0002,
+            "track"  : [0],
+            "nextLocations" : [2],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Hey Evi, so the waffles are absolutely delicious, but can you please explain to me what's going on here?",
+                            "character" : "ania"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "A special agent came up to me and this is what he said:",
+                            "character" : "ania"
+                        },
+                        {
+                            "type" : "video",
+                            "content" : "https://www.youtube.com/embed/ScMzIvxBSi4",
+                            "character" : "ania"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Oh no… Looks like i confused the routes because of my bad headache. And maybe I forgot to mention that I’m a part-time secret agent... But hey, I'm sure you can solve all the riddles so I can complete the murder weapon replicator.",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Alright then, how can I solve the first riddle here at the café?",
+                            "character" : "ania"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "The first keyword I need from you consists of the English meaning of the name of the brunch café (lowercase)",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "code",
+                            "content" : "stubborn",
+                            "character" : "ania"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Well done! Your next stop is the magical Doloris' Meta Maze. I’ll catch up with you when you’re there 😊",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "That sounds like fun!",
+                            "character" : "ania"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.55990998602531,
+            "long" : 5.089443707375605,
+            "accuracy" : 0.0002,
+            "track"  : [0],
+            "nextLocations" : [3],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Hey adventurer, how was the maze?",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Amazing! It was truly an Alice in Wonderland, down the rabbit hole, red or blue pill experience.",
+                            "character" : "ania"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Haha I expected no other reaction from you!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Yeah it was absolutely awesome, and I doubt I’ve seen everything there was to see. But what is the next riddle?",
+                            "character" : "ania"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Okay so what I need from you is the name of the object the gatekeeper used when bringing you to the entrance (lowercase). I hope you also documented it on your Instagram.",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Oh yeah, I know what it is and yes, I’m documenting everything 😊",
+                            "character" : "ania"
+                        },
+                        {
+                            "type" : "code",
+                            "content" : "blindfold",
+                            "character" : "ania"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Great, thanks! Now you can continue at RAW, which is just on the other side of the train station.",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "There I need you to ask for a beer recommendation because our murder always drank the staff’s suggestion. <br />Then tell me the name of the brewery and make sure to post it on Instagram for others who want to follow your journey.",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "I just had a cocktail on the rooftop, but sure, a cold beer sounds good 😊",
+                            "character" : "ania"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.56089549986583,
+            "long" : 5.087250487118721,
+            "accuracy" : 0.0002,
+            "track"  : [0],
+            "nextLocations" : [4],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "So, what kind of beer did they recommend to you?",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Ahm it was something with B in the beginning… Wait I will look it up cuz I posted it on Insta already.",
+                            "character" : "ania"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Haha yeah, it’s probably a Dutch company with a really weird name. Make sure to write it exactly like in the menu.",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "code",
+                            "content" : "Brouwerij 't IJ",
+                            "character" : "ania"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Perfect, you did great work! You’ve definitely earned a nice meal before you head to the bar! Therefore, the next location is the TOKOBAR, an Asian restaurant with a natural wine bar.",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Did you just read my mind? I’m literally sooo hungry!",
+                            "character" : "ania"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.555466823682764,
+            "long" : 5.08289389919968,
+            "accuracy" : 0.0002,
+            "track"  : [0],
+            "nextLocations" : [5],
+            "chats" : [
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Hey how is the food?",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Great! I’m having the crispy chicken burger which is the perfect appetizer for partying tonight haha",
+                            "character" : "ania"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Haha that’s perfect, you definitely should be prepared 😉",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "In order to give you the name of the bar where you can activate the murder weapon replicator, you must tell me what the TOKOBAR’s mascot is (lowercase).",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "code",
+                            "content" : "cat",
+                            "character" : "ania"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Thanks! Now you can head to the last location, the bar Cul de Sac. But you can take your time and discover the city a bit more until you go there. Because it’s still early 😊",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Alright, I’ll take my time and will let you know when I’m there.",
+                            "character" : "ania"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "lat" : 51.55717576176543,
+            "long" : 5.092512566600358,
+            "accuracy" : 0.0002,
+            "track"  : [0],
             "nextLocations" : [],
             "chats" : [
                 {
@@ -13,18 +318,90 @@
                     "msgs" : [
                         {
                             "type" : "text",
-                            "content" : "Hey Ania!",
-                            "character" : "evi"
+                            "content" : "Hey Evi, I just arrived at Cul de Sac. How can I activate the murder weapon replicator now?",
+                            "character" : "ania"
                         },
                         {
                             "type" : "text",
-                            "content" : "Answer 'kruikenzeiker'",
+                            "content" : "Alright, so I need a code from you to activate the replicator. It consists of the first letters (capitals) of all keywords you sent me and the house number of the bar.",
                             "character" : "evi"
                         },
                         {
                             "type" : "code",
-                            "content" : "kruikenzeiker",
-                            "character" : "cesar"
+                            "content" : "SBBC48",
+                            "character" : "ania"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "It worked!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Give me a second and I will send you the link to the murder weapon replicator.",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "There you go: <a href='' target='_blank'>Coming soon</a>",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "If you tell me what the murder weapon is, Special Agent Arno will send me the party map. Or maybe it was more than one, who knows… (lowercase)",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "code",
+                            "content" : "knives",
+                            "character" : "ania"
+                        }
+                    ]
+                },
+                {
+                    "track"  : [0],
+                    "friend" : "evi",
+                    "msgs" : [
+                        {
+                            "type" : "text",
+                            "content" : "Oh wow, that was sooo obvious… I told Special Agent Arno from the beginning that it was Korte Heuvel's cursed knives, but he wouldn't believe me!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Wait what? Cursed knives?",
+                            "character" : "ania"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Yeeeah you know the horror stories of the Flying Dutchman? They’re true. The Dutch ship was cursed just like these knives are cursed by the spirit of the Korte Heuvel. But that’s a story for another day haha",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Holy shit! I need a drink!",
+                            "character" : "ania"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "And the party map I just received from Special Agent Arno! Here you go: <a href='https://www.google.com/maps/d/edit?mid=1GS1PYJ_BR9T_wK3B5zjVs1E5QzM_mps&usp=sharing' target='_blank'>Special Agent Arno's Party Map<a />",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Have fun!",
+                            "character" : "evi"
+                        },
+                        {
+                            "type" : "text",
+                            "content" : "Thanks Evi, hope you feel better tomorrow😊",
+                            "character" : "ania"
                         }
                     ]
                 }
