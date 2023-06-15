@@ -37,8 +37,8 @@ function Home() {
                 {/* <iframe className="video" width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> */}
                 <div className="video"><i>Video coming soon</i></div>
                 <div className="character-choices">
-                    <div className="character-ania"><img onClick={ () => switchCharacter('ania') } src="/img/characters/ania_profile.jpg"></img></div>
-                    <div className="character-mei active"><img onClick={ () => switchCharacter('mei') } src="/img/characters/mei_profile.jpg"></img></div>
+                    <div className="character-ania active"><img onClick={ () => switchCharacter('ania') } src="/img/characters/ania_profile.jpg"></img></div>
+                    <div className="character-mei"><img onClick={ () => switchCharacter('mei') } src="/img/characters/mei_profile.jpg"></img></div>
                     <div className="character-cesar"><img onClick={ () => switchCharacter('cesar') } src="/img/characters/cesar_profile.jpg"></img></div>
                     <div className="character-yasu"><img onClick={ () => switchCharacter('yasu') } src="/img/characters/yasu_profile.jpg"></img></div>
                     <div className="character-emmanuel"><img onClick={ () => switchCharacter('emmanuel') } src="/img/characters/emmanuel_profile.jpg"></img></div>
@@ -53,11 +53,11 @@ function Home() {
                 {/* <div className="start-button"><Link to="/character" state={{ character: 'emmanuel', title: 'Show Off Your Inner Tilburg' }}>START</Link></div> */}
                 <div className="start-button"><Link><i>Coming soon</i></Link></div>
             </div>
-            <div className="character-info-ania">
+            <div className="character-info-ania active">
                 <h2>Ania | Party</h2>
                 <a className="insta-icon" target="_blank" href="https://www.instagram.com/_ania.kowalski_/"><img src="/img/icons/insta-icon.svg" alt="instagram link" /></a>
-                <p className="intro">A Little Party Never Killed Anyone</p>
-                <p>Ania's exiting route will guide you to all the party places in Tilburg while solving a murder case!</p>
+                <p className="intro">A Little Party Never Killed Nobody!</p>
+                <p>Hey, I'm Ania, a 19-year-old party animal from Poland. Known as the party queen in my group, I always make sure we have a blast no matter what. Brace yourself for an adventure of a lifetime as Evi sent me on a thrilling route through Tilburg. But here's the twist: there's a murder mystery to solve along the way! Join me on this wild journey where partying is the name of the game. Our trip will last anywhere from 4 to 24 hours, depending on how long you can keep the party going.</p>
                 <div className="start-button"><Link to="/character" state={{ character: 'ania', title: 'A Little Party Never Killed Anyone' }}>START</Link></div>
             </div>
             <div className="character-info-yasu">
@@ -66,9 +66,8 @@ function Home() {
                 <p className="intro">Unlock Tilburg's Cultural Secrets</p>
                 <p>Hey! I’m Yasu, a 21 y/o Japanese guy and I’m preparing for a photo contest with Evi! To win the prize, I need to discover the cultural things in Tilburg! I’m interested in taking photos and I want to prove my ability to become a photographer. To do this, I need your help to take the craziest and best photos of cultural stuff with Hashtag! Follow my route and enjoy your journey in Tilburg!</p>
                 <div className="start-button"><Link to="/character" state={{ character: 'yasu', title: 'Unlock Tilburg\'s Cultural Secrets' }}>START</Link></div>
-                {/* <div className="start-button"><Link><i>Coming soon</i></Link></div> */}
             </div>
-            <div className="character-info-mei active">
+            <div className="character-info-mei">
                 <h2>Mei | Nature</h2>
                 <a className="insta-icon" target="_blank" href="https://www.instagram.com/meiyu_explorer/"><img src="/img/icons/insta-icon.svg" alt="instagram link" /></a>
                 <p className="intro">Lost and Found: Tilburg's Wild Adventure</p>
